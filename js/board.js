@@ -119,6 +119,6 @@ class Board {
   }
 }
 
-Board.marks = ['x', 'o'];
+Board.marks = ['8==D', '(.)(.)'];
 
 module.exports = Board;

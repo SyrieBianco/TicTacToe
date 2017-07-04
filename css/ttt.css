@@ -1,0 +1,80 @@
+
+
+.square {
+  float: left;
+  width: 269px;
+  height: 269px;
+  outline: 10px solid pink;
+  background-color: teal;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marked {
+  background-color: white;
+  color: red;
+  text-align: center;
+  font-size: 69px;
+  font-family: sans-serif;
+  /*padding: 16% 0px 16% 0px ;*/
+  /*justify-content: center;*/
+}
+
+.o{
+  background-color: white;
+  color: green;
+  text-align: center;
+  font-size: 172px;
+  font-family: sans-serif;
+}
+
+
+/*.x:after,
+.o:after {
+  display: block;
+  width: 100%;
+  font-size: 60px;
+  line-height: 80px;
+}*/
+
+
+
+.square:hover {
+  background-color: orange;
+}
+
+.ttt {
+  /*outline: 10px solid gray;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin: auto
+}
+
+
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+/*Build the grid using an unordered list (<ul>). The cells can be
+represented inside the grid using <li> elements. By floating the <li>
+elements left and giving the <ul> a fixed width, the cells will appear
+ on the same line and nicely wrap around to form a 3x3 grid. Set a border
+  on the cells to make it look like a real grid. Style unclicked cells with
+  a gray background. Change the background to yellow while the user :hovers
+   over an unclicked cell.*/
